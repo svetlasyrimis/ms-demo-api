@@ -1,0 +1,13 @@
+{
+  "name": "ms-api-demo",
+  "version": "1.0.0",
+  "description": "ms api demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
