@@ -9,6 +9,8 @@ fs.writeFile ("db.json", JSON.stringify(data), function(err) {
     console.log('complete');
     }
 );
+
+
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3200;
