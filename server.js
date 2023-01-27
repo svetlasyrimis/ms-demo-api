@@ -2,13 +2,13 @@ const jsonServer = require('json-server');
 const fs = require('fs');
 const server = jsonServer.create();
 
-const data = require('./db.js')();
+// const data = require('./db.js')();
 
-fs.writeFile ("db.json", JSON.stringify(data), function(err) {
-    if (err) throw err;
-    console.log('complete');
-    }
-);
+// fs.writeFile ("db.json", JSON.stringify(data), function(err) {
+//     if (err) throw err;
+//     console.log('complete');
+//     }
+// );
 
 
 const router = jsonServer.router('db.json');
