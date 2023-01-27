@@ -4,7 +4,7 @@ const server = jsonServer.create();
 
 const data = require('./db.js')();
 
-fs.writeFile ("db.json", JSON.stringify(db), function(err) {
+fs.writeFile ("db.json", JSON.stringify(data), function(err) {
     if (err) throw err;
     console.log('complete');
     }
